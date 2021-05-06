@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import Navbar from "./components/Navbar";
+import "./App.scss";
+import Hero from "./components/Hero";
+import CreditCard from "./components/CreditCard";
+import CardList from "./components/CardList";
+import CenterButton from "./components/CenterButton";
+import Institucional from "./components/Institucional";
+import posts from "./data/posts";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Hero />
+      <CreditCard />
+      <CardList posts={posts} />
+      <CenterButton>Abra sua conta</CenterButton>
+      <Institucional />
     </div>
   );
 }
