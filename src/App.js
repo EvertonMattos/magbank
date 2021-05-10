@@ -6,6 +6,8 @@ import CreditCard from "./components/CreditCard";
 import CardList from "./components/CardList";
 import CenterButton from "./components/CenterButton";
 import Institucional from "./components/Institucional";
+import Faq from "./components/Faq";
+import Footer from "./components/Footer";
 import posts from "./data/posts";
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <CardList posts={posts} />
       <CenterButton>Abra sua conta</CenterButton>
       <Institucional />
+      <Faq />
+      <Footer />
     </div>
   );
 }
