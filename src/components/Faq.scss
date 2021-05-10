@@ -1,0 +1,23 @@
+@import "./variebles.scss";
+.faq {
+  background-color: $color-faq-background;
+
+  div.card {
+    background-color: unset;
+    .card-header {
+      background-color: $color-faq-header;
+    }
+    .btn-link {
+      color: #fff;
+    }
+  }
+
+  &__title {
+    font-size: 2.7rem;
+    font-weight: 300;
+    letter-spacing: 1.2;
+    @media screen and (min-width: 992px) {
+      font-size: 3.5rem;
+    }
+  }
+}
