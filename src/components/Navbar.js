@@ -30,14 +30,11 @@ const Navigation = ({ handleCreateAcc }) => (
         <ButtonGroup aria-label="Basic example">
           <Button variant="outline-light">
             <NavDropdown title="Acessar Minha Conta" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
+              <NavDropdown.Item href="#action/3.1">
+                Cria Conta Juridica
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
+              <NavDropdown.Item href="#action/3.2">
+                Cria Conta Fisisca
               </NavDropdown.Item>
             </NavDropdown>
           </Button>
