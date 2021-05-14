@@ -23,29 +23,19 @@ const Footer = () => (
           <Image src={playstore} className="ml-3" />
         </Col>
         <Col xs={12} lg={2} className="align-items-center">
-          <a href="https://facebook.com" target="_blank">
-            <FontAwesomeIcon
-              icon={faFacebookSquare}
-              size="3x"
-              color="#7c7c7c"
-            />
-          </a>
-          <a href="https://twitter.com" target="_blank">
-            <FontAwesomeIcon
-              icon={faTwitter}
-              size="3x"
-              color="#7c7c7c"
-              className="ml-2"
-            />
-          </a>
-          <a href="https://youtube.com" target="_blank">
-            <FontAwesomeIcon
-              icon={faYoutube}
-              size="3x"
-              color="#7c7c7c"
-              className="ml-2"
-            />
-          </a>
+          <FontAwesomeIcon icon={faFacebookSquare} size="3x" color="#7c7c7c" />
+          <FontAwesomeIcon
+            icon={faTwitter}
+            size="3x"
+            color="#7c7c7c"
+            className="ml-2"
+          />
+          <FontAwesomeIcon
+            icon={faYoutube}
+            size="3x"
+            color="#7c7c7c"
+            className="ml-2"
+          />
         </Col>
       </Row>
     </Container>

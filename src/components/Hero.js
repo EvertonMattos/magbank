@@ -4,7 +4,7 @@ import logoDesktop from "../assests/Logo_MagicPay__Desktop.png";
 import logo from "../assests/Logo_MagicPay__Mobile.png";
 import "./Hero.scss";
 
-const Hero = ({ handleCreateAcc }) => (
+const Hero = ({ handleClick }) => (
   <Jumbotron className="text-center text-light hero">
     <Row className="my-lg-5">
       <Col lg className="text-lg-right my-lg-5">
@@ -13,7 +13,7 @@ const Hero = ({ handleCreateAcc }) => (
       </Col>
       <Col lg className="text-lg-left my-lg-5">
         <p>Pague suas contas pelo nosso APP</p>
-        <Button variant="outline-light" onClick={handleCreateAcc}>
+        <Button variant="outline-light" onClick={handleClick}>
           Abra sua conta
         </Button>
       </Col>
