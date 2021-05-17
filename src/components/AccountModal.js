@@ -14,12 +14,12 @@ const AccountModal = ({ show, handleClose }) => (
           <Form.Control type="text" placeholder="Seu Nome" />
         </Form.Group>
 
-        <Form.Group controlId="formCity">
+        <Form.Group controlId="formEmail">
           <Form.Label className="text-label">Seu Email</Form.Label>
           <Form.Control type="email" placeholder="Seu Email" />
         </Form.Group>
 
-        <Form.Group controlId="formBasicPassword">
+        <Form.Group controlId="formCitySelect">
           <Form.Label className="my-1 mr-2 text-label" htmlFor="formCitySelect">
             Seu Estado
           </Form.Label>
