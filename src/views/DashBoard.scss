@@ -11,10 +11,24 @@
   }
   &__button {
     color: $color-primary;
-    &:hover {
+    margin-bottom: 1.2rem;
+    &:hover,
+    &--active {
       text-decoration: none;
       color: #fff;
       background-color: $color-primary;
     }
+  }
+  a.dasboard__link,
+  a:active,
+  a:hover {
+    text-decoration: none;
+  }
+  a.nav-item.nav-link {
+    color: $color-primary;
+    text-transform: none;
+  }
+  a.nav-item.nav-link.active {
+    color: $color-active;
   }
 }
